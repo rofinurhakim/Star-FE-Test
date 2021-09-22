@@ -4,6 +4,7 @@ import '../assets/style/style.scss'
 
 const Nav = () => {
     return (
+        <>
         <div>
              <Navbar className='bg' bg="white" variant="white">
     <Container>
@@ -18,6 +19,7 @@ const Nav = () => {
     </Container>
   </Navbar>
         </div>
+        </>
     )
 }
 
