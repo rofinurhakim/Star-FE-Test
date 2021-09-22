@@ -1,9 +1,9 @@
 import './App.css';
-import Nav from './Components/Navbar';
+import HomePage from './pages/Home';
 
 function App() {
   return (
-    <Nav></Nav>
+    <HomePage></HomePage>
   );
 }
 

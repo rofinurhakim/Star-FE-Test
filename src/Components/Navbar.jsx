@@ -1,10 +1,10 @@
 import React from 'react'
 import {Navbar , Container} from 'react-bootstrap'
-
+import '../assets/style/style.scss'
 
 const Nav = () => {
     return (
-        <div className="Container">
+        <div>
              <Navbar className='bg' bg="white" variant="white">
     <Container>
     <Navbar.Brand className='mt-60'>StarTRAVELER</Navbar.Brand>

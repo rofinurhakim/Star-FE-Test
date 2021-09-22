@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.homepage {
+    .section-one, .section-two {
+        .col-md-6.title-web h1 {
+            margin-top: 144px ;
+            font-family: 'Syne', sans-serif ;
+            letter-spacing: 12px;
+            font-size: 63px;
+            font-weight: 700;
+        }
+    
+        .col-md-6.title-web p {
+            margin-top: 63px;
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+            padding-right: 109px;
+        }
+    
+        .col-md-6.title-web button {
+            background-color: white;
+            border: 1px solid black;
+            padding-bottom: 21px;
+            padding-top: 21px;
+            padding-right: 52px;
+            margin-top: 30px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 12px;
+            padding-left: 42px;
+        }
+    
+        .col-md-6.title-web img {
+            width: 64px;
+            margin-right: 8px;
+    
+        }
+    }
+    .section-three {
+        background-color: #0F2A31;
+        color: white;
+        margin-top: 9rem;
+        padding-left: 3rem;
+
+    .d-flex.circle p {
+        color: #969696;
+        font-size: 11px;
+}
+
+    .col-md-4.content {
+        margin-top: 9rem;
+        h1 {
+            font-family: 'Syne', sans-serif ;
+            font-weight: 700;
+            padding-left: 48px;
+        }
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 12px;
+            padding-right: 37px;
+            line-height: 26px;
+        }
+        .circle-img {
+            background-color: black;
+            border-radius: 50%;
+            padding: 7px 11px;
+        }
+    } 
+
+    .col-md-6 {
+        p {
+            margin-left: 48px;
+            padding-right: 13rem;
+            font-family: 'Poppins', sans-serif;
+            font-size: 13px;
+            color: #969696;
+        }
+        
+        img {
+            margin-left: 47px;
+        }
+       
+    }
+
+    .col-md-4.ms-auto {
+        button {
+            background-color: #0F2A31;
+            border: 1px solid white;
+            padding-bottom: 21px;
+            padding-top: 21px;
+            padding-right: 52px;
+            margin-top: 30px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 12px;
+            padding-left: 42px;
+            color: white;
+        }
+    }
+
+}
+}
+
