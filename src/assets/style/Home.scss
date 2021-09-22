@@ -40,7 +40,7 @@
     .section-three {
         background-color: #0F2A31;
         color: white;
-        margin-top: 9rem;
+        margin-top: 13rem;
         padding-left: 3rem;
         padding-bottom: 3rem;
 
@@ -110,6 +110,11 @@
             }
             p {
                 font-family: 'Poppins', sans-serif;
+            }
+        }
+        .row.feature{
+            .p-4 {
+                border: 1px solid ;
             }
         }
     }
