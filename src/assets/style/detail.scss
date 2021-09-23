@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+    
+    .detailpage {
+        background-color:#0F2A31;
+        .row.country {
+            .col-6.section-1 {
+                margin-top: 7rem;
+                h1 {
+                    -webkit-text-stroke: 1px white;
+                    font-weight: 999;
+                    letter-spacing: 12px;
+                 
+                    
+                }
+                p {
+                    margin-top: 2rem;
+                    color: white;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 12px;
+                    font-weight: 200;
+                }
+            }
+            .row.mt-4.logo {
+                img {
+                    border: 1px solid white;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+   
