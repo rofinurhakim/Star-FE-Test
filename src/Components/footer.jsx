@@ -6,14 +6,15 @@ import instag from '../assets/img/Instagram.png'
 const Footer = () => {
     return (
         <>
-        <div className="container footer">
-          <div className="row py-5">
-              <div className="col-3 right ">
+        <div className=" footer">
+          <div className="container">
+            <div className="row py-5">
+              <div className="col-md-3 right ">
                   <h5>StarTraveler</h5>
               </div>
-              <div className="col-6">
+              <div className="col-md-6">
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-md-4">
                         <p>DESTINATIONS</p>
                         <ul>
                             <li><a href="#">Eart</a></li>
@@ -23,7 +24,7 @@ const Footer = () => {
                         </ul>
 
                     </div>
-                    <div className="col-4">
+                    <div className="col-md-4">
                     <p>GET HELP</p>
                         <ul>
                             <li><a href="#">Status</a></li>
@@ -33,7 +34,7 @@ const Footer = () => {
                             <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
-                    <div className="col-4">
+                    <div className="col-md-4">
                     <p>ABOUT</p>
                         <ul>
                             <li><a href="#">News</a></li>
@@ -45,7 +46,7 @@ const Footer = () => {
                     </div>
                 </div>
               </div>
-              <div className="col-3">
+              <div className="col-md-3">
                   <div className="d-flex ms-5">
                       <img width='30' src={twit} alt="" />
                       <img width='30'  className='mx-3'src={Fb} alt="" />
@@ -76,6 +77,7 @@ const Footer = () => {
                       
                    </div>
                </div>
+          </div>
         </div>
         </>
     )
