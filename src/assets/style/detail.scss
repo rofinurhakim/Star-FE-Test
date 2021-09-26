@@ -3,8 +3,9 @@
     
     .detailpage {
         background-color:#0F2A31;
+        padding-bottom: 89px;
         .row.country {
-            .col-6.section-1 {
+            .col-md-6.section-1 {
                 margin-top: 7rem;
                 h1 {
                     -webkit-text-stroke: 1px white;
@@ -19,6 +20,12 @@
                     font-family: 'Poppins', sans-serif;
                     font-size: 12px;
                     font-weight: 200;
+                }
+            }
+            .col-md-6.contentRight {
+                img {
+                    width: 71%;
+                    margin-top: 3rem;
                 }
             }
             .row.mt-4.logo {
