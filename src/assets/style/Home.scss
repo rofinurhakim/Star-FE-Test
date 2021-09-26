@@ -1,7 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.navbar-toggler-icon {
+    color: black !important;
+}
 
 .homepage {
+    .fixed-menu{
+        position: fixed;
+        left: 0;
+        height: 100vh;
+        background: white;
+        top: 0;
+        img {
+            margin-top: 20rem;
+            cursor: pointer;
+        }
+    }
+
     .section-one, .section-two {
         .col-md-6.title-web h1 {
             margin-top: 144px ;
@@ -37,6 +52,7 @@
     
         }
     }
+
     .section-three {
         background-color: #0F2A31;
         color: white;
@@ -120,3 +136,45 @@
     }
 }
 
+
+@media (min-width: 577px) {
+    .section-three, .section-one, .section-two{
+        .react-3d-carousel {
+            height: 350px !important;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    html, body {
+      font-size: 12px !important;
+      line-height: 16px;
+    }
+    span{
+      font-size: 12px !important;
+    }
+    h1{
+      font-size: 28px !important;
+      line-height: 28px;
+    }
+    h2 {
+      font-size: 28px !important;
+      line-height: 28px;
+    }
+    h3, h4 {
+      font-size: 24px !important;
+      line-height: 24px;
+    }
+    h5, h6{
+      font-size: 22px !important;
+      line-height: 20px;
+    }
+    .text-lg{
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .react-3d-carousel {
+        height: auto !important;
+    }
+  }
