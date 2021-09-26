@@ -9,8 +9,11 @@ import Union3 from '../assets/img/Union3.jpg'
 import Menu from '../assets/img/Menu.png'
 import Footer from '../Components/footer'
 import {Carousel} from '3d-react-carousal';
+import {useHistory} from 'react-router' 
 
 const HomePage = () => {
+    const history = useHistory()
+
     let slides = [
         <img  src="https://picsum.photos/800/300/?random" alt="1" />,
         <img  src="https://picsum.photos/800/301/?random" alt="2" />  ,
@@ -23,7 +26,7 @@ const HomePage = () => {
         <NavBar></NavBar>
         <div className="homepage">
             <div className="fixed-menu d-none d-md-block">
-                <img width={100} src={Menu} alt="menu"/>
+                <img onClick={() => history.push('/Menu')} width={100} src={Menu} alt="menu"/>
             </div>
             <div className="container mt-5 mt-md-2">
                 <div className="row section-one">

@@ -4,8 +4,20 @@
 .MenuPage {
     background-color:#0F2A31;
     padding-bottom: 166px;
-    .col-md-4.listMenu {
-        margin-top: 7rem;
+    
+    .col-md-2.col-md-2.back {
+        margin-top: 15rem;
+        h1 {
+            color: white;
+            font-weight: 100;
+            font-size: 56px;
+            cursor: pointer;
+        
+        }
+    }
+    
+    .col-md-3.listMenu {
+        margin-top: 13rem;
         a {
             text-decoration: none;
             color: white;
@@ -17,7 +29,7 @@
             padding-bottom: 22px;
         }
     }
-    .col-md-4.contentright {
+    .col-md-3.contentright {
         position: relative;
         h1 {
             margin-top: 7rem;
@@ -39,17 +51,20 @@
             border: 1px solid white;
             padding-bottom: 21px;
             padding-top: 21px;
-            padding-right: 52px;
+            padding-right: 34px;
             margin-top: 30px;
             font-family: 'Poppins', sans-serif;
             font-size: 12px;
-            padding-left: 42px;
+            padding-left: 35px;
             color: white;
         }
     }
-    .col-md-4.picture {
+    .col-md-3.picture {
         img {
-        
+            height: 94%;
+            width: 145%;
+            margin-top: 3rem;
         }
     }
+   
 }
